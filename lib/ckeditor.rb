@@ -41,7 +41,7 @@ module Ckeditor
   # Allowed image file types for upload.
   # Set to nil or [] (empty array) for all file types
   mattr_accessor :image_file_types
-  @@image_file_types = %w[jpg jpeg png gif tiff]
+  @@image_file_types = %w[jpg jpeg png gif tiff svg]
 
   # Allowed flash file types for upload.
   # Set to nil or [] (empty array) for all file types
